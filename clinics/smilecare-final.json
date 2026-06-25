@@ -1,0 +1,55 @@
+{
+  "id": "smilecare-dental",
+  "name": "SmileCare Dental Clinic",
+  "ownerName": "Dr. SmileCare",
+  "phone": "+91 9999999999",
+  "address": "Hyderabad, Telangana",
+  "language": "en",
+  "workingHours": {
+    "start": 9,
+    "end": 21,
+    "days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+    "lunchBreak": { "start": 13, "end": 14 }
+  },
+  "services": [
+    "Teeth Cleaning & Polishing",
+    "Tooth Extraction",
+    "Root Canal Treatment (RCT)",
+    "Dental Fillings",
+    "Teeth Whitening",
+    "Braces & Aligners",
+    "Dental Implants",
+    "Crown & Bridge",
+    "Pediatric Dentistry",
+    "Smile Makeover",
+    "Gum Treatment",
+    "Dentures"
+  ],
+  "slotDurationMinutes": 30,
+  "availableSlots": [
+    "09:00", "09:30", "10:00", "10:30", "11:00", "11:30", "12:00", "12:30",
+    "14:00", "14:30", "15:00", "15:30", "16:00", "16:30", "17:00", "17:30",
+    "18:00", "18:30", "19:00", "19:30", "20:00", "20:30"
+  ],
+  "googleSheetId": "YOUR_GOOGLE_SHEET_ID_HERE",
+  "notifyOwnerNumber": "919347488883",
+  "faq": {
+    "fees": "Consultation is just ₹200. All treatment costs are shared upfront — no hidden charges ever!",
+    "location": "SmileCare Dental Clinic, Hyderabad, Telangana. Exact directions shared after booking confirmation.",
+    "parking": "Free parking available right outside the clinic.",
+    "insurance": "All major insurance cards accepted. Please carry yours.",
+    "emergency": "Dental emergency? Call us immediately: +91 9999999999",
+    "xray": "Advanced digital X-rays available at the clinic.",
+    "timings": "Monday to Saturday: 9 AM – 9 PM. Sunday: Closed."
+  },
+  "messages": {
+    "welcome": "🦷 *Hey there! Welcome!* 😊\n\n✨ *SmileCare Dental Clinic*\n_Your Trusted Dental Care in Hyderabad!_\n\n━━━━━━━━━━━━━━━━━━━━━━\n🏆 Expert Dentists\n💡 Modern Equipment\n💰 Affordable Prices\n📍 Hyderabad, Telangana\n━━━━━━━━━━━━━━━━━━━━━━\n\n🎯 *How can we help you today?*\n\n1️⃣  📅 Book an Appointment\n2️⃣  🦷 Our Dental Services\n3️⃣  💰 Consultation Fees\n4️⃣  📍 Clinic Location\n5️⃣  🕐 Working Hours\n6️⃣  📞 Talk to Our Team\n\n━━━━━━━━━━━━━━━━━━━━━━\n💬 *Reply with a number to get started!*",
+    "bookingStart": "📅 *Let's Book Your Appointment!*\n_Just 4 quick steps — takes under 2 minutes!_ ⚡\n\n━━━━━━━━━━━━━━━━━━━━━━\n*Step 1 of 4* — Your Name\n━━━━━━━━━━━━━━━━━━━━━━\n\n👤 Please tell us your *full name*:",
+    "askDate": "📅 *Step 2 of 4* — Preferred Date\n\n━━━━━━━━━━━━━━━━━━━━━━\nWhich date works best for you?\n━━━━━━━━━━━━━━━━━━━━━━\n\n📌 Format: *DD/MM/YYYY*\n📌 Example: *28/06/2026*\n\nOr simply type:\n▸ *today*\n▸ *tomorrow*",
+    "askSlot": "⏰ *Step 3 of 4* — Pick a Time Slot\n\n━━━━━━━━━━━━━━━━━━━━━━\n✅ *Available Slots:*\n━━━━━━━━━━━━━━━━━━━━━━\n{slots}\n\n💬 *Type the slot number you prefer*",
+    "askReason": "🦷 *Step 4 of 4* — Reason for Visit\n\n━━━━━━━━━━━━━━━━━━━━━━\nBriefly tell us why you're visiting:\n━━━━━━━━━━━━━━━━━━━━━━\n\n📌 Examples:\n▸ Tooth pain\n▸ Routine cleaning\n▸ Check-up\n▸ Braces enquiry\n▸ Whitening",
+    "confirmBooking": "🎉 *Appointment Confirmed!*\n\n━━━━━━━━━━━━━━━━━━━━━━\n🏥 *SmileCare Dental Clinic*\n📍 Hyderabad, Telangana\n━━━━━━━━━━━━━━━━━━━━━━\n👤 *Patient:* {name}\n📅 *Date:* {date}\n⏰ *Time:* {slot}\n🦷 *Reason:* {reason}\n━━━━━━━━━━━━━━━━━━━━━━\n\n📌 *Before You Visit:*\n▸ Arrive 10 minutes early\n▸ Carry insurance card _(if any)_\n▸ Emergency: +91 9999999999\n\n🔔 _You'll receive a reminder before your appointment!_\n\nWe look forward to seeing you! 😊\n_Your smile is our responsibility_ 🦷",
+    "humanHandoff": "👨‍⚕️ *Let Me Connect You to Our Team!*\n\n_I wasn't able to answer your question accurately._\nOur dental team is ready to help you directly! 🤝\n\n━━━━━━━━━━━━━━━━━━━━━━\n📱 *Call / WhatsApp*\n    +91 9999999999\n\n🕐 *Available*\n    Mon–Sat | 9 AM – 9 PM\n━━━━━━━━━━━━━━━━━━━━━━\n\n_Leave your message here and we'll reply ASAP!_ 🙏",
+    "outsideHours": "🌙 *We're Closed Right Now*\n\n━━━━━━━━━━━━━━━━━━━━━━\n🕐 *Working Hours*\nMonday – Saturday | 9 AM – 9 PM\nSunday — Closed\n━━━━━━━━━━━━━━━━━━━━━━\n\nWe've noted your message! ✅\nOur team will get back to you\nfirst thing when we reopen 🙏\n\n🚨 *Dental Emergency?*\nCall us anytime: *+91 9999999999*"
+  }
+}
